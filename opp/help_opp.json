@@ -1,0 +1,49 @@
+
+{    
+    "title": "Guia de Uso do Opp",
+    "introduction": "O Opp é uma ferramenta de linha de comando para gerenciar e executar comandos rapidamente usando aliases.",
+    "sections": [
+        {
+            "heading": "Instalação",
+            "content": "Para instalar o Opp, clone o repositório do GitHub e execute o script de instalação."
+        },
+        {
+            "heading": "Comandos Disponíveis(opp <command> [args])",
+            "content": [
+                {
+                    "command": "add <alias> <name> <path>",
+                    "description": "Adiciona um novo comando com o alias, nome e caminho especificados."
+                },
+                {
+                    "command": "list ou ls",
+                    "description": "Lista todos os comandos armazenados com seus aliases, nomes e caminhos."
+                },
+                {
+                    "command": "id <id>",
+                    "description": "Exibe os detalhes do comando associado ao ID fornecido."
+                },
+                {
+                    "command": "rm ou remove <alias>",
+                    "description": "Remove o comando associado ao alias fornecido."
+                },
+                {
+                    "command": "get <alias>",
+                    "description": "Exibe os detalhes do comando associado ao alias fornecido."
+                },
+                {
+                    "command": "ex ou execute <alias>",
+                    "description": "Executa o comando associado ao alias fornecido."
+                },
+                {
+                    "command": "help ou h",
+                    "description": "Exibe este guia de ajuda."
+                },
+                {
+                    "command": "update ou upd <alias> <name> <path>",
+                    "description": "Atualiza o nome e o caminho do comando associado ao alias fornecido."
+                }
+                
+            ]
+        }
+    ]    
+}
