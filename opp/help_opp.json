@@ -5,7 +5,17 @@
     "sections": [
         {
             "heading": "Instalação",
-            "content": "Para instalar o Opp, clone o repositório do GitHub e execute o script de instalação."
+            "content": [
+                "pipx install git+https://github.com/JoaoVitorTavarezAlmeida/opp.git",
+                "pipx ensurepath",
+                "ou",
+                "git clone https://github.com/JoaoVitorTavarezAlmeida/opp.git",
+                "cd opp",
+                "pipx install -e .",
+                "pipx ensurepath",
+                "Reinicie seu terminal para aplicar as mudanças no PATH.",
+                "teste a instalação com: opp help"
+            ]
         },
         {
             "heading": "Comandos Disponíveis(opp <command> [args])",
