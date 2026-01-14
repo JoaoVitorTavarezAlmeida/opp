@@ -21,11 +21,16 @@ O objetivo é simplificar o acesso a comandos frequentes, evitando digitação r
 
 ### Requisitos
 - Python **3.10 ou superior**
-- `pip`
+- `pipx`
 
 ### Instalação via repositório
 
 ```bash
 git clone https://github.com/JoaoVitorTavarezAlmeida/opp.git
 cd opp
-pip install .
+pipx install -e .
+pipx ensurepath
+
+reinicie o terminal
+
+
