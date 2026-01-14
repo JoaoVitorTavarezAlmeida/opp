@@ -1,16 +1,11 @@
 from importlib.resources import files
 import json
 
-
-_HELP_PACKAGE = "opp.help"
-_HELP_FILE = "help_opp.json"
-
-
 def load_help() -> dict:
-    path = files(_HELP_PACKAGE).joinpath(_HELP_FILE)
-
+    path = files("opp").joinpath("help_opp.json")
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
+
 
 
 def print_help(data: dict) -> None:
