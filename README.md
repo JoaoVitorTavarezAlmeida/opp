@@ -26,6 +26,6 @@ O objetivo é simplificar o acesso a comandos frequentes, evitando digitação r
 ### Instalação via repositório
 
 ```bash
-git clone https://github.com/seu-usuario/opp.git
+git clone https://github.com/JoaoVitorTavarezAlmeida/opp.git
 cd opp
 pip install .
