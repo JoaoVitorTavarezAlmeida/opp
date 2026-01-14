@@ -26,11 +26,18 @@ O objetivo é simplificar o acesso a comandos frequentes, evitando digitação r
 ### Instalação via repositório
 
 ```bash
+pipx install git+https://github.com/JoaoVitorTavarezAlmeida/opp.git
+pipx ensurepath
+
+ou
+
 git clone https://github.com/JoaoVitorTavarezAlmeida/opp.git
 cd opp
 pipx install -e .
 pipx ensurepath
 
 reinicie o terminal
+
+teste opp h
 
 
