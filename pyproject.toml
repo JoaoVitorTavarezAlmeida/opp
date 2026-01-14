@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opp"
-version = "0.1.0"
+version = "0.1.1"
 description = "CLI para gerenciar e executar comandos por alias"
 authors = [{ name = "Victor" }]
 readme = "README.md"
@@ -17,4 +17,4 @@ opp = "opp.cli:main"
 include-package-data = true
 
 [tool.setuptools.package-data]
-"opp.help" = ["*.json"]
+"opp" = ["*.json"]
