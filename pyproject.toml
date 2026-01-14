@@ -14,7 +14,7 @@ requires-python = ">=3.10"
 opp = "opp.cli:main"
 
 [tool.setuptools]
-include-package-data = true
+packages = ["opp"]
 
 [tool.setuptools.package-data]
 opp = ["help_opp.json"]
